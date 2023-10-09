@@ -11,7 +11,7 @@ def plot_test(test_set, predictions):
     ax.plot(predictions, label='Forecast')
 
     ax.set_title("Test vs Forecast", fontsize=15, pad=15)
-    ax.set_ylabel("Number of orders", fontsize=12)
+    ax.set_ylabel("Views", fontsize=12)
     ax.set_xlabel("Date", fontsize=12)
 
     ax.grid(linestyle=":", color='grey')
