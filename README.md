@@ -10,7 +10,6 @@
 
 Для запуска приложения используйте следующие команды:
 ```python
-# Создание образа
 docker-compose up -d --build
 docker-compose up -d
 ```
